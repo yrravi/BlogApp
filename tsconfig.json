@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": false,
+      // "strictPropertyInitialization": false,
+      // "noImplicitAny": true,
+      // "strictNullChecks": true,
+      // "strictBindCallApply": true
+    },
+   "include": ["src/**/*", "src/types/express.d.ts"],
+    "exclude": ["node_modules"]
+  }
+  
